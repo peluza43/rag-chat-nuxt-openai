@@ -1,0 +1,10 @@
+fastapi==0.112.2
+uvicorn[standard]==0.30.5
+python-socketio[asgi]==5.11.3
+python-multipart==0.0.9
+pydantic==2.9.1
+python-dotenv==1.0.1
+openai==1.44.0
+chromadb==0.5.5
+pypdf==4.3.1
+langchain-text-splitters==0.2.4
