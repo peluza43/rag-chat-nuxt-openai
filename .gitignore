@@ -1,0 +1,148 @@
+# ============================================================
+#  PROYECTO: RAG Chat (FastAPI + Nuxt 3 + OpenAI + WebSockets)
+# 
+# ============================================================
+
+########################
+#  PYTHON / FASTAPI
+########################
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+
+# Archivos de caché
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.eggs/
+*.manifest
+*.spec
+
+# Configuración temporal o local
+.idea/
+.vscode/
+*.log
+.DS_Store
+*.db
+*.sqlite3
+*.sqlite
+*.bak
+
+# Archivos de entorno
+.env
+.env.local
+.env.dev
+.env.prod
+.env.test
+
+# Directorios de almacenamiento del backend
+storage/uploads/
+storage/chroma/
+storage/tmp/
+uploads/
+tmp/
+logs/
+
+# Dependencias y compilados
+dist/
+build/
+.cache/
+.coverage
+htmlcov/
+pytest_cache/
+__snapshots__/
+
+########################
+#  FRONTEND / NUXT 3
+########################
+
+# Archivos generados por Nuxt
+.nuxt/
+.nitro/
+.output/
+dist/
+.cache/
+.lock-wscript
+node_modules/
+.npm/
+.pnpm-store/
+yarn.lock
+package-lock.json
+
+# Archivos locales
+*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Configuración del editor / IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+
+########################
+# 🧠 OPENAI / API KEYS
+########################
+
+# Claves API y configuraciones sensibles
+openai_key.txt
+config.json
+secret.txt
+token.txt
+
+########################
+# 📦 TESTS / TEMP
+########################
+
+# Archivos temporales o de prueba
+__tests__/
+test_results/
+tmp/
+backup/
+sandbox/
+notebooks/
+*.ipynb_checkpoints
+
+########################
+#  GIT / DEPLOY
+########################
+
+# Archivos de Git que no deben versionarse
+.gitignore
+.gitattributes
+
+# Archivos de despliegue locales
+deploy.sh
+docker-compose.override.yml
+.env.docker
+.env.production.local
+.env.development.local
+
+########################
+# EXCEPCIONES
+########################
+
+!.env.example
+!.gitignore
+!README.md
+!requirements.txt
+!package.json
+!nuxt.config.ts
+!*.vue
+!*.py
+!*.ts
+!*.js
